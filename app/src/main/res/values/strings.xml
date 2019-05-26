@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Калькулятор ЖКХ</string>
+
+    <string name="home_adress_pattern">https://www.reformagkh.ru/myhouse/profile/view/</string>
+    
+    <string name="live_inspection_link">https://letters.gov.spb.ru/reception/form/</string>
+    
+    <string name="live_comitee_link">http://gilkom-complex.ru/contact</string>
+    
+    <string name="gis_zhkh_link">https://dom.gosuslugi.ru/citizen-cabinet/#!/index</string>
+    
+    <string name="prokuratura_link">http://procspb.ru/reception/department</string>
+    
+    <string name="home_info">Информация о доме</string>
+
+    <string name="home_link">Ссылка на профиль на сайте "Реформа ЖКХ"</string>
+
+    <string name="home_address">Адрес</string>
+    <string name="loading">Загрузка...</string>
+</resources>
