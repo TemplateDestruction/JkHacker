@@ -1,9 +1,17 @@
 package com.breakout.myapplication;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.AssetManager;
+import android.database.Cursor;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -15,10 +23,16 @@ import com.breakout.myapplication.model.Example;
 import com.breakout.myapplication.repository.RepositoryProvider;
 import com.toptoche.searchablespinnerlibrary.SearchableSpinner;
 
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.List;
 
-public class SearchActivity extends AppCompatActivity {
+import static com.github.mikephil.charting.charts.Chart.LOG_TAG;
+
+public class SearchActivityDatabase extends AppCompatActivity {
+
+
+
+    DBHelper dbHelper;
 
 //    SearchableSpinner borrowSpin;
     SearchableSpinner pointSpin;
@@ -32,16 +46,60 @@ public class SearchActivity extends AppCompatActivity {
     List<String> streets;
     List<String> homes;
 
+    // вывод в лог данных из курсора
+    void logCursor(Cursor c) {
+        if (c != null) {
+            if (c.moveToFirst()) {
+                String str;
+                do {
+                    str = "";
+                    for (String cn : c.getColumnNames()) {
+                        str = str.concat(cn + " = " + c.getString(c.getColumnIndex(cn)) + "; ");
+                    }
+                    Log.d(LOG_TAG, str);
+                } while (c.moveToNext());
+            }
+        } else
+            Log.d(LOG_TAG, "Cursor is null");
+    }
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.find_layout);
-
+//        dbHelper = new DBHelper(this);
+//        SQLiteDatabase database = dbHelper.getWritableDatabase();
+////        dbHelper.onCreate(database);
+////        System.out.println("AAAAAAAAAAAAAAAAAAAA");
+////        System.out.println(this.getDatabasePath("mytable").getAbsolutePath());
+//        Cursor cursor = database.query("house_param", new String[], "formalname_city");
+//        Cursor cursor = database.rawQuery("SELECT DISTINCT formalname_city FROM comp_param", new String[40]);
+//        logCursor(cursor);
 //        borrows = new ArrayList<>();
 //        borrows.add("gatciha");
 //        borrows.add("gatc");
 //        borrows.add("gatcia");
 //        borrows.add("tciha");
+
+        DataBaseHelper myDbHelper = new DataBaseHelper(this);
+        myDbHelper.openDataBase();
+        Cursor cursor = myDbHelper.getReadableDatabase().rawQuery("SELECT DISTINCT formalname_city FROM comp_param", new String[40]);
+
+//        myDbHelper = new DataBaseHelper(this);
+//
+//        try {
+//            System.out.println("DDDDDDDDDDDDDD");
+//            myDbHelper.createDataBase();
+//        } catch (IOException ioe) {
+//            System.out.println("CCCCCCCCCCC");
+//            throw new Error("Unable to create database");
+//        }
+//
+//        try {
+//            myDbHelper.openDataBase();
+//        }catch(SQLException sqle){
+//            throw sqle;
+//        }
 
 //        borrowSpin = findViewById(R.id.borrow_spinner);
         pointSpin = findViewById(R.id.point_spinner);
@@ -73,7 +131,7 @@ public class SearchActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String bor = streets.get(position);
-                Toast.makeText(SearchActivity.this, bor, Toast.LENGTH_SHORT).show();
+                Toast.makeText(SearchActivityDatabase.this, bor, Toast.LENGTH_SHORT).show();
                 button.setVisibility(View.VISIBLE);
 
             }
@@ -94,7 +152,7 @@ public class SearchActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 loadHomes(streets.get(position));
                 String bor = streets.get(position);
-                Toast.makeText(SearchActivity.this, bor, Toast.LENGTH_SHORT).show();
+                Toast.makeText(SearchActivityDatabase.this, bor, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -117,7 +175,7 @@ public class SearchActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 loadStreets(points.get(position));
                 String bor = points.get(position);
-                Toast.makeText(SearchActivity.this, bor, Toast.LENGTH_SHORT).show();
+                Toast.makeText(SearchActivityDatabase.this, bor, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -141,7 +199,7 @@ public class SearchActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 loadPoints();
                 String bor = borrows.get(position);
-                Toast.makeText(SearchActivity.this, bor, Toast.LENGTH_SHORT).show();
+                Toast.makeText(SearchActivityDatabase.this, bor, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -177,5 +235,31 @@ public class SearchActivity extends AppCompatActivity {
 
         //on Next
         startActivity(new Intent(this, ResultAcitivity.class));
+    }
+
+
+
+    class DBHelper extends SQLiteOpenHelper {
+
+        public DBHelper(Context context) {
+            // конструктор суперкласса
+            super(context, "house", null, 1);
+        }
+
+        @Override
+        public void onCreate(SQLiteDatabase db) {
+            Log.d(LOG_TAG, "--- onCreate database ---");
+            // создаем таблицу с полями
+            db.execSQL("create table mytable ("
+                    + "id integer primary key autoincrement,"
+                    + "name text,"
+                    + "email text" + ");");
+        }
+
+        @Override
+        public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+
+        }
+
     }
 }

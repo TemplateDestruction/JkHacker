@@ -3,14 +3,14 @@
 
     <!--<item android:drawable="@color/blue" />-->
 
-    <!--&lt;!&ndash;<item>&ndash;&gt;-->
-    <!--&lt;!&ndash;<bitmap&ndash;&gt;-->
-    <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
-    <!--&lt;!&ndash;android:src="@drawable/splash_logo"/>&ndash;&gt;-->
-    <!--&lt;!&ndash;</item>&ndash;&gt;-->
-    <!--<item-->
-        <!--android:gravity="center"-->
-        <!--android:drawable="@drawable/ic_splash"-->
-        <!--/>-->
+    <!--<item>-->
+    <!--<bitmap-->
+    <!--android:gravity="center"-->
+    <!--android:src="@drawable/splash_logo"/>-->
+    <!--</item>-->
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/mobeg"
+        />
 
 </layer-list>

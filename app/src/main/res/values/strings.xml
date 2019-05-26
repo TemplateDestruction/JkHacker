@@ -17,4 +17,6 @@
 
     <string name="home_address">Адрес</string>
     <string name="loading">Загрузка...</string>
+    
+    <!--<string-array name=""-->
 </resources>
