@@ -10,9 +10,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
-public class MainActivity extends AppCompatActivity {
+public class ComplaintsActivity extends AppCompatActivity {
 
 
     TextView homeAddress;
@@ -21,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.complaints_layout);
+        setContentView(R.layout.complaints);
 
-        homeAddress = findViewById(R.id.home_address);
-        homeLink = findViewById(R.id.home_site_link);
-
-        ClipboardManager clipboard = (ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);
-        ClipData clip = ClipData.newPlainText("txt", homeAddress.getText().toString());
-        clipboard.setPrimaryClip(clip);
+//        homeAddress = findViewById(R.id.home_address);
+//        homeLink = findViewById(R.id.home_site_link);
+//
+//        ClipboardManager clipboard = (ClipboardManager)getSystemService(Context.CLIPBOARD_SERVICE);
+//        ClipData clip = ClipData.newPlainText("txt", homeAddress.getText().toString());
+//        clipboard.setPrimaryClip(clip);
 
         //paste
 //        if (clip.getDescription().hasMimeType(ClipDescription.MIMETYPE_TEXT_PLAIN)) {
@@ -50,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBtnClick(View view) {
         switch (view.getId()) {
+            case R.id.button_email:
+                Toast.makeText(this, "Email скопирован", Toast.LENGTH_SHORT).show();
+                break;
             case R.id.button_live_insp:
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.live_inspection_link))));
                 break;

@@ -2,21 +2,2077 @@
     <string name="app_name">Калькулятор ЖКХ</string>
 
     <string name="home_adress_pattern">https://www.reformagkh.ru/myhouse/profile/view/</string>
-    
+
     <string name="live_inspection_link">https://letters.gov.spb.ru/reception/form/</string>
-    
+
     <string name="live_comitee_link">http://gilkom-complex.ru/contact</string>
-    
-    <string name="gis_zhkh_link">https://dom.gosuslugi.ru/citizen-cabinet/#!/index</string>
-    
+
+    <string name="gis_zhkh_link">https://dom.gosuslugi.ru/</string>
+
     <string name="prokuratura_link">http://procspb.ru/reception/department</string>
-    
+
     <string name="home_info">Информация о доме</string>
 
     <string name="home_link">Ссылка на профиль на сайте "Реформа ЖКХ"</string>
 
     <string name="home_address">Адрес</string>
     <string name="loading">Загрузка...</string>
-    
-    <!--<string-array name=""-->
+
+
+    <string-array name="borrows">
+        <item>Бокситогорский
+</item>
+        <item>Волосовский
+</item>
+        <item>Волховский
+</item>
+        <item>Всеволожский
+</item>
+        <item>Выборгский
+</item>
+        <item>Гатчинский
+</item>
+        <item>Кингисеппский
+</item>
+        <item>Киришский
+</item>
+        <item>Кировский
+</item>
+        <item>Лодейнопольский
+</item>
+        <item>Ломоносовский
+</item>
+        <item>Лужский
+</item>
+        <item>Подпорожский
+</item>
+        <item>Приозерский
+</item>
+        <item>Сланцевский
+</item>
+        <item>Тихвинский
+</item>
+        <item>Тосненский
+</item>
+
+
+    </string-array>
+    <string-array name="points">
+        <item>Анисимово</item>
+        <item>Бокситогорск</item>
+        <item>Большой Двор (Большедворское с/п)</item>
+        <item>Бор</item>
+        <item>Дыми</item>
+        <item>Ефимовский</item>
+        <item>Зиновья Гора</item>
+        <item>Климово (Климовское с/п)</item>
+        <item>Кожаково</item>
+        <item>Колбеки</item>
+        <item>Ларьян</item>
+        <item>Мозолево-1</item>
+        <item>Нос</item>
+        <item>Озеро-Село</item>
+        <item>Пикалево</item>
+        <item>Обрино</item>
+        <item>Подборовье</item>
+        <item>Радогощь</item>
+        <item>Сегла</item>
+        <item>Селище (Борское с/п)</item>
+        <item>Сельхозтехника</item>
+        <item>Совхозный</item>
+        <item>Сомино</item>
+        <item>Бегуницы</item>
+        <item>Беседа</item>
+        <item>Большая Вруда</item>
+        <item>Большой Сабск</item>
+        <item>Волосово</item>
+        <item>Вруда</item>
+        <item>Добряницы</item>
+        <item>Жилгородок</item>
+        <item>Зимитицы</item>
+        <item>Извара</item>
+        <item>Калитино</item>
+        <item>Каложицы</item>
+        <item>Каськово</item>
+        <item>Кикерино</item>
+        <item>Клопицы</item>
+        <item>Курковицы</item>
+        <item>Курск</item>
+        <item>Лагоново</item>
+        <item>Молосковицы</item>
+        <item>Молосковицы (Каложицкое с/п)</item>
+        <item>Молосковицы (Курское с/п)</item>
+        <item>Остроговицы</item>
+        <item>Рабитицы</item>
+        <item>Сельцо</item>
+        <item>Сумино</item>
+        <item>Татьянино</item>
+        <item>Терпилицы</item>
+        <item>Торосово</item>
+        <item>Ущевицы</item>
+        <item>Хотыницы</item>
+        <item>Аврово</item>
+        <item>Бабино</item>
+        <item>Бережки</item>
+        <item>Волхов</item>
+        <item>Воскресенское</item>
+        <item>Вындин Остров</item>
+        <item>Глядково</item>
+        <item>Гостинополье</item>
+        <item>Запорожье</item>
+        <item>Ивановский Остров</item>
+        <item>Иссад</item>
+        <item>Кисельня</item>
+        <item>Колчаново</item>
+        <item>Куколь</item>
+        <item>Местовка</item>
+        <item>Мыслино</item>
+        <item>Надкопанье</item>
+        <item>Немятово-2</item>
+        <item>Новая Ладога</item>
+        <item>Паша</item>
+        <item>Подвязье</item>
+        <item>Потанино</item>
+        <item>Прусынская Горка</item>
+        <item>Свирица</item>
+        <item>Селиваново</item>
+        <item>Славково</item>
+        <item>Старая Ладога</item>
+        <item>Сясьстрой</item>
+        <item>Усадище</item>
+        <item>Хвалово</item>
+        <item>Чаплино</item>
+        <item>Чернавино</item>
+        <item>Черноушево</item>
+        <item>Юги</item>
+        <item>Юшково</item>
+        <item>Агалатово</item>
+        <item>Аро</item>
+        <item>Борисова Грива</item>
+        <item>Бугры</item>
+        <item>Ваганово</item>
+        <item>Варзолово</item>
+        <item>Вартемяги</item>
+        <item>Васкелово</item>
+        <item>Воейково</item>
+        <item>Всеволожск</item>
+        <item>Южный</item>
+        <item>Вуолы</item>
+        <item>Гарболово</item>
+        <item>Грузино</item>
+        <item>Дубровка гп</item>
+        <item>Екатериновка</item>
+        <item>Елизаветинка</item>
+        <item>Заводской</item>
+        <item>Заневка</item>
+        <item>Заневский пост 1 (гаражи)</item>
+        <item>Заневский Пост 5 км</item>
+        <item>Им Морозова</item>
+        <item>Им Свердлова</item>
+        <item>Кальтино</item>
+        <item>Каменка</item>
+        <item>Капитолово</item>
+        <item>Карьер Мяглово</item>
+        <item>Касимово</item>
+        <item>Керро</item>
+        <item>Кирполье</item>
+        <item>Ковалево</item>
+        <item>Колбино</item>
+        <item>Колтуши</item>
+        <item>Красная Горка</item>
+        <item>Красная Заря</item>
+        <item>Красная Звезда</item>
+        <item>Кудрово</item>
+        <item>Кузьмоловский гп</item>
+        <item>Куйвози</item>
+        <item>Лаврики</item>
+        <item>Ладожский Трудпоселок</item>
+        <item>Ладожское Озеро</item>
+        <item>Лепсари</item>
+        <item>Лесколово</item>
+        <item>Лесное</item>
+        <item>Лехтуси</item>
+        <item>Лупполово</item>
+        <item>Матокса</item>
+        <item>Минулово</item>
+        <item>Мистолово</item>
+        <item>Мурино</item>
+        <item>Мяглово</item>
+        <item>Невский Парклесхоз</item>
+        <item>Ненимяки</item>
+        <item>Нижние Осельки</item>
+        <item>Новое Девяткино</item>
+        <item>Новосаратовка</item>
+        <item>Новосергиевка</item>
+        <item>Осельки</item>
+        <item>Павлово</item>
+        <item>Пери</item>
+        <item>Песочный (Сертолово)</item>
+        <item>Плинтовка</item>
+        <item>Порошкино</item>
+        <item>Поселок-13</item>
+        <item>Проба</item>
+        <item>Разметелево</item>
+        <item>Рапполово</item>
+        <item>Рахья гп</item>
+        <item>Рахья</item>
+        <item>Романовка</item>
+        <item>Сертолово</item>
+        <item>Сертолово-1</item>
+        <item>Сертолово-2</item>
+        <item>Модуль</item>
+        <item>Черная Речка</item>
+        <item>Старая</item>
+        <item>Стеклянный</item>
+        <item>ст Ириновка</item>
+        <item>ст Кирпичный Завод</item>
+        <item>ст Корнево</item>
+        <item>ст Лемболово</item>
+        <item>Суоранда</item>
+        <item>Токсово ГП</item>
+        <item>Углово</item>
+        <item>Хапо-Ое</item>
+        <item>Щеглово</item>
+        <item>Энколово</item>
+        <item>Юкки</item>
+        <item>Янино-1</item>
+        <item>Янила Кантри</item>
+        <item>Барышево</item>
+        <item>Боровинка</item>
+        <item>Бородинское</item>
+        <item>Великое</item>
+        <item>Вещево</item>
+        <item>Возрождение</item>
+        <item>Волочаевка</item>
+        <item>Выборг</item>
+        <item>Калининский</item>
+        <item>Харитоново</item>
+        <item>Высоцк</item>
+        <item>Гаврилово</item>
+        <item>Гвардейское</item>
+        <item>Глебычево</item>
+        <item>Гончарово</item>
+        <item>Горьковское</item>
+        <item>Дятлово</item>
+        <item>Ермилово</item>
+        <item>Житково</item>
+        <item>Зайцево</item>
+        <item>Заполье</item>
+        <item>Зеленый Холм</item>
+        <item>Ильичево</item>
+        <item>Каменногорск</item>
+        <item>Камышевка</item>
+        <item>Камышовка</item>
+        <item>Каннельярви</item>
+        <item>Кирилловское</item>
+        <item>Кирпичное</item>
+        <item>Климово</item>
+        <item>Кондратьево</item>
+        <item>Коробицино</item>
+        <item>Кравцово</item>
+        <item>Красная Долина</item>
+        <item>Красносельское</item>
+        <item>Красный Сокол</item>
+        <item>Лебяжье</item>
+        <item>Лейпясуо</item>
+        <item>Ленинское</item>
+        <item>Лесогорский</item>
+        <item>Липовка</item>
+        <item>Лосево</item>
+        <item>Лужайка</item>
+        <item>Лужки</item>
+        <item>Михалево</item>
+        <item>Мухино</item>
+        <item>Новинка</item>
+        <item>Ольшаники</item>
+        <item>Отрадное</item>
+        <item>Ояярви</item>
+        <item>Пальцево</item>
+        <item>Первомайское 1-е</item>
+        <item>Первомайское</item>
+        <item>Перово</item>
+        <item>Пески</item>
+        <item>Песочное</item>
+        <item>Пионерское</item>
+        <item>Победа</item>
+        <item>Подгорное</item>
+        <item>Поляны</item>
+        <item>Правдино(Красносельская)</item>
+        <item>Правдино</item>
+        <item>Приветнинское</item>
+        <item>Приморск</item>
+        <item>Карасевка</item>
+        <item>Пруды</item>
+        <item>Пушное</item>
+        <item>Рощино</item>
+        <item>Рябово</item>
+        <item>Светогорск</item>
+        <item>Свободное</item>
+        <item>Селезнево</item>
+        <item>Семиозерье</item>
+        <item>Советский</item>
+        <item>Соколинское</item>
+        <item>Сосновая Горка</item>
+        <item>Тарасово</item>
+        <item>Токарево</item>
+        <item>Торфяновка</item>
+        <item>Ханила</item>
+        <item>Цвелодубово</item>
+        <item>Черкасово</item>
+        <item>Александровка</item>
+        <item>Антелево</item>
+        <item>Батово</item>
+        <item>Белогорка</item>
+        <item>Большево</item>
+        <item>Большие Колпаны</item>
+        <item>Большие Тайцы</item>
+        <item>Большое Рейзино</item>
+        <item>Вайялово</item>
+        <item>Верево</item>
+        <item>Войсковицы</item>
+        <item>Володарский Водопровод</item>
+        <item>Вопша</item>
+        <item>Вырица</item>
+        <item>Высокоключевой</item>
+        <item>Гатчина</item>
+        <item>Даймище</item>
+        <item>Дивенский</item>
+        <item>Дружная Горка</item>
+        <item>Дружноселье</item>
+        <item>Елизаветино</item>
+        <item>Жабино</item>
+        <item>Зайцево (Веревское с/п)</item>
+        <item>Ивановка (Пудостьское с/п)</item>
+        <item>Карташевская</item>
+        <item>Кирлово</item>
+        <item>Кобралово</item>
+        <item>Кобринское</item>
+        <item>Коммунар</item>
+        <item>Ижора участок N1</item>
+        <item>Корпикюля</item>
+        <item>Корписалово</item>
+        <item>Куровицы</item>
+        <item>Лампово</item>
+        <item>Луйсковицы</item>
+        <item>Лукаши</item>
+        <item>Малое Верево</item>
+        <item>Малое Замостье</item>
+        <item>Малые Колпаны</item>
+        <item>Маргусы</item>
+        <item>Меньково</item>
+        <item>Мины</item>
+        <item>Мыза-Ивановка</item>
+        <item>Никольское</item>
+        <item>Новая (Елизаветинское с/п)</item>
+        <item>Новосиверская</item>
+        <item>Новый Свет</item>
+        <item>Новый Учхоз</item>
+        <item>Орлино</item>
+        <item>Остров</item>
+        <item>Парицы</item>
+        <item>Пегелево</item>
+        <item>Пижма</item>
+        <item>Поддубье</item>
+        <item>Покровская</item>
+        <item>Прибытково</item>
+        <item>Пригородный</item>
+        <item>Пудомяги</item>
+        <item>Пудость</item>
+        <item>Раболово</item>
+        <item>Рождествено</item>
+        <item>Семрино</item>
+        <item>Сиверский</item>
+        <item>Скворицы</item>
+        <item>Слудицы</item>
+        <item>Старое Мозино</item>
+        <item>Старосиверская</item>
+        <item>Старые Низковицы</item>
+        <item>Строганово</item>
+        <item>Суйда</item>
+        <item>Сусанино</item>
+        <item>Сяськелево</item>
+        <item>Тайцы</item>
+        <item>Терволово</item>
+        <item>Тихковицы</item>
+        <item>Тойворово</item>
+        <item>Торфопредприятие</item>
+        <item>Торфяное</item>
+        <item>Туганицы</item>
+        <item>Тяглино</item>
+        <item>Чаща</item>
+        <item>Шпаньково</item>
+        <item>Алексеевка</item>
+        <item>Большая Пустомержа</item>
+        <item>Большое Куземкино</item>
+        <item>Веймарн</item>
+        <item>Вистино</item>
+        <item>Гурлево</item>
+        <item>Захонье-2</item>
+        <item>Ивангород</item>
+        <item>Кейкино</item>
+        <item>Керстово</item>
+        <item>Кингисепп</item>
+        <item>Касколовка</item>
+        <item>Кингисеппский</item>
+        <item>Котельский</item>
+        <item>Котлы</item>
+        <item>Кошкино</item>
+        <item>Куты</item>
+        <item>Лялицы</item>
+        <item>Мануйлово</item>
+        <item>Неппово</item>
+        <item>Ополье</item>
+        <item>Усть-Луга</item>
+        <item>Фалилеево</item>
+        <item>Будогощь</item>
+        <item>Глажево</item>
+        <item>Ирса</item>
+        <item>Кириши</item>
+        <item>Кусино</item>
+        <item>Посадниково</item>
+        <item>Пчева</item>
+        <item>Пчевжа</item>
+        <item>Тигода</item>
+        <item>Тихорицы</item>
+        <item>Апраксин</item>
+        <item>Валовщина</item>
+        <item>Войбокало</item>
+        <item>Войпала</item>
+        <item>Выстав</item>
+        <item>Горгала</item>
+        <item>Горка</item>
+        <item>Горы</item>
+        <item>Грибное</item>
+        <item>Дачное</item>
+        <item>Кировск</item>
+        <item>Лаврово</item>
+        <item>Мга</item>
+        <item>Молодцово</item>
+        <item>Назия</item>
+        <item>Низово</item>
+        <item>Плитняки</item>
+        <item>Приладожский</item>
+        <item>Путилово</item>
+        <item>Пухолово</item>
+        <item>Сандела</item>
+        <item>Синявино-2</item>
+        <item>Синявино</item>
+        <item>Старая Малукса</item>
+        <item>Сухое</item>
+        <item>Шлиссельбург</item>
+        <item>Шум</item>
+        <item>Алеховщина</item>
+        <item>Вахнова Кара</item>
+        <item>Вонозеро</item>
+        <item>Доможирово</item>
+        <item>Заостровье</item>
+        <item>Игокиничи</item>
+        <item>Инема</item>
+        <item>Лодейное Поле</item>
+        <item>Мехбаза</item>
+        <item>Мошкино</item>
+        <item>Оять</item>
+        <item>Рассвет</item>
+        <item>Ребовичи</item>
+        <item>Свирьстрой</item>
+        <item>Старая Слобода</item>
+        <item>Тервеничи</item>
+        <item>Харевщина</item>
+        <item>Шамокша</item>
+        <item>Янега</item>
+        <item>Яровщина (Алеховщинское с/п)</item>
+        <item>Аннино</item>
+        <item>Большая Ижора</item>
+        <item>Вблизи д.Малое Карлино в/г 202</item>
+        <item>Вблизи д.Малое Карлино в/г 8</item>
+        <item>Велигонты</item>
+        <item>Верхняя Колония</item>
+        <item>Виллози</item>
+        <item>Вильповицы</item>
+        <item>Глобицы</item>
+        <item>Глядино</item>
+        <item>Гора Валдай</item>
+        <item>Горбунки</item>
+        <item>Горки</item>
+        <item>Гостилицы</item>
+        <item>Дятлицы</item>
+        <item>Иннолово</item>
+        <item>Кавелахта</item>
+        <item>Капорское</item>
+        <item>Келози</item>
+        <item>Кипень</item>
+        <item>Копорье</item>
+        <item>Красный Бор</item>
+        <item>Куттузи</item>
+        <item>Лаголово</item>
+        <item>Лесопитомник</item>
+        <item>Ломаха</item>
+        <item>Лопухинка</item>
+        <item>Малая Ижора</item>
+        <item>Малое Карлино</item>
+        <item>Низино</item>
+        <item>Новогорелово</item>
+        <item>Новоселье</item>
+        <item>Оржицы</item>
+        <item>Пеники</item>
+        <item>Петровское</item>
+        <item>Пикколово</item>
+        <item>Пулково</item>
+        <item>Разбегаево</item>
+        <item>Ретселя</item>
+        <item>Ропша</item>
+        <item>Русско-Высоцкое</item>
+        <item>Таменгонт</item>
+        <item>Узигонты</item>
+        <item>Форт Красная Горка</item>
+        <item>Шепелево</item>
+        <item>Широково</item>
+        <item>Яльгелево</item>
+        <item>Белое</item>
+        <item>Бетково</item>
+        <item>Большие Шатновичи</item>
+        <item>Бор (Дзержинское с/п)</item>
+        <item>Володарское</item>
+        <item>Волошово</item>
+        <item>Вычелобок</item>
+        <item>Герцена</item>
+        <item>Госткино</item>
+        <item>Дзержинского</item>
+        <item>Домкино</item>
+        <item>Естомичи</item>
+        <item>Жельцы</item>
+        <item>Живой Ручей</item>
+        <item>Заклинье (Заклинское с/п)</item>
+        <item>Заозерье (Дзержинское с/п)</item>
+        <item>Заполье (Заклинское с/п-Каменское)</item>
+        <item>Ивановское</item>
+        <item>Калгановка</item>
+        <item>Конезерье</item>
+        <item>Красный Маяк</item>
+        <item>Луга</item>
+        <item>Городок</item>
+        <item>Зеленый Бор</item>
+        <item>км 131</item>
+        <item>Луга-3</item>
+        <item>Шалово</item>
+        <item>Межозерный</item>
+        <item>Мерево</item>
+        <item>Мошковые Поляны</item>
+        <item>Мшинская</item>
+        <item>Наволок</item>
+        <item>Нелаи</item>
+        <item>Низовская</item>
+        <item>Оредеж</item>
+        <item>Островно</item>
+        <item>Осьмино</item>
+        <item>Перечицы</item>
+        <item>Пехенец</item>
+        <item>Плоское</item>
+        <item>Подгородье</item>
+        <item>Почап</item>
+        <item>Приозерный</item>
+        <item>Раковно</item>
+        <item>Рель</item>
+        <item>Ретюнь</item>
+        <item>Ручьи</item>
+        <item>Саба (Осьминское с/п)</item>
+        <item>Самро</item>
+        <item>Сватково</item>
+        <item>Серебрянский</item>
+        <item>Скреблово</item>
+        <item>Старая Середка</item>
+        <item>Сырец</item>
+        <item>Тесово 4</item>
+        <item>Толмачево</item>
+        <item>Торковичи</item>
+        <item>Торошковичи</item>
+        <item>Турово</item>
+        <item>Чеголи</item>
+        <item>Ям-Тесово</item>
+        <item>Важины</item>
+        <item>Винницы</item>
+        <item>Вознесенье</item>
+        <item>Никольский</item>
+        <item>Подпорожье</item>
+        <item>Свирь</item>
+        <item>Токари</item>
+        <item>Шеменичи</item>
+        <item>Яндеба</item>
+        <item>Бригадное</item>
+        <item>Варшко</item>
+        <item>Веснино</item>
+        <item>Владимировка</item>
+        <item>Громово</item>
+        <item>Запорожское</item>
+        <item>Коммунары</item>
+        <item>Красноармейское</item>
+        <item>Красноозерное</item>
+        <item>Кривко</item>
+        <item>Кузнечное</item>
+        <item>Ларионово</item>
+        <item>Мельниково</item>
+        <item>Мичуринское</item>
+        <item>Моторное</item>
+        <item>Ольховка</item>
+        <item>Орехово</item>
+        <item>Петяярви</item>
+        <item>Платформа 69 км</item>
+        <item>Плодовое</item>
+        <item>Понтонное</item>
+        <item>Починок</item>
+        <item>Приозерск</item>
+        <item>Пятиречье</item>
+        <item>Раздолье</item>
+        <item>Речное</item>
+        <item>Ромашки</item>
+        <item>Саперное</item>
+        <item>Севастьяново</item>
+        <item>Снегиревка</item>
+        <item>Солнечное</item>
+        <item>Соловьевка</item>
+        <item>Сосново</item>
+        <item>Сторожевое</item>
+        <item>Суходолье</item>
+        <item>Тракторное</item>
+        <item>Ягодное</item>
+        <item>Большая Руя</item>
+        <item>Большие Поля</item>
+        <item>Выскатка</item>
+        <item>Гостицы</item>
+        <item>Демешкин Перевоз</item>
+        <item>Загривье</item>
+        <item>Кологриво</item>
+        <item>Монастырек</item>
+        <item>Овсище</item>
+        <item>Переволок</item>
+        <item>Попкова Гора</item>
+        <item>Сланцы</item>
+        <item>Старополье</item>
+        <item>Степановщина</item>
+        <item>Сосновый Бор</item>
+        <item>Березовик</item>
+        <item>Ганьково</item>
+        <item>Дуброво</item>
+        <item>Еремина Гора</item>
+        <item>Кайвакса</item>
+        <item>Капшинский</item>
+        <item>Кильмуя</item>
+        <item>Кончик</item>
+        <item>Коськово</item>
+        <item>Красава</item>
+        <item>Мелегежская Горка</item>
+        <item>Мошково</item>
+        <item>Пашозеро</item>
+        <item>Сарка</item>
+        <item>Сарожа</item>
+        <item>Тихвин</item>
+        <item>Царицыно Озеро</item>
+        <item>Цвылево</item>
+        <item>Шугозеро</item>
+        <item>Шуйга</item>
+        <item>Андрианово</item>
+        <item>Войскорово</item>
+        <item>Георгиевское</item>
+        <item>Гладкое</item>
+        <item>Керамик</item>
+        <item>Коркино</item>
+        <item>Красная Дача</item>
+        <item>Липки</item>
+        <item>Любань</item>
+        <item>Новолисино</item>
+        <item>Нурма</item>
+        <item>Пионер</item>
+        <item>Поги</item>
+        <item>Померанье</item>
+        <item>Пустынька</item>
+        <item>Радофинниково</item>
+    </string-array>
+
+    <string-array name="streets">
+        <item>Жукова</item>
+        <item>Заводская</item>
+        <item>Комсомольская</item>
+        <item>Красная</item>
+        <item>Красных Следопытов</item>
+        <item>Металлургов</item>
+        <item>Нагорная</item>
+        <item>Новогородская</item>
+        <item>Павлова</item>
+        <item>Садовая</item>
+        <item>Советская</item>
+        <item>Социалистическая</item>
+        <item>Спортивная</item>
+        <item>Школьная</item>
+        <item>Южная</item>
+        <item>1-й</item>
+        <item>Больничная</item>
+        <item>Будка 272</item>
+        <item>Вокзальная</item>
+        <item>Володарского</item>
+        <item>Гагарина</item>
+        <item>Гусарова</item>
+        <item>Казарма 275</item>
+        <item>Красноармейская</item>
+        <item>Малая Спортивная</item>
+        <item>Молодежная</item>
+        <item>Песочная</item>
+        <item>Привокзальная</item>
+        <item>Рабочий</item>
+        <item>Северная</item>
+        <item>Сенная</item>
+        <item>Торфяников</item>
+        <item>3-й</item>
+        <item>5-й</item>
+        <item>6-й</item>
+        <item>Бульварная</item>
+        <item>Горняков</item>
+        <item>Городской</item>
+        <item>Мелиораторов</item>
+        <item>Огородная</item>
+        <item>Спрямленное</item>
+        <item>Строительная</item>
+        <item>Театральный 1-й</item>
+        <item>Театральный 2-й</item>
+        <item>Труда</item>
+        <item>Учебный</item>
+        <item>Новая</item>
+        <item>Белозерка</item>
+        <item>Ярославская</item>
+        <item>Будка 84 км</item>
+        <item>Ветеранов</item>
+        <item>Виз</item>
+        <item>Вингиссара</item>
+        <item>Восстания</item>
+        <item>Гатчинская</item>
+        <item>Гатчинское</item>
+        <item>Железнодорожная</item>
+        <item>Зеленая</item>
+        <item>Интернатская</item>
+        <item>Красногвардейская</item>
+        <item>Краснофлотская</item>
+        <item>Красных Командиров</item>
+        <item>Ленинградская</item>
+        <item>Лесная</item>
+        <item>Механизаторов</item>
+        <item>Милицейская</item>
+        <item>Нарвская</item>
+        <item>Парковая</item>
+        <item>Первомайская</item>
+        <item>Пионерская</item>
+        <item>Пушкинская</item>
+        <item>Советов</item>
+        <item>Суворовская</item>
+        <item>Усадьба СХТ</item>
+        <item>Федора Афанасьева</item>
+        <item>Хрустицкого</item>
+        <item>Юбилейная</item>
+        <item>2-й</item>
+        <item>Андреевская</item>
+        <item>Будка 77</item>
+        <item>Ивановская</item>
+        <item>Курковицкое</item>
+        <item>Ломакина</item>
+        <item>Михайловская</item>
+        <item>Новая Деревня</item>
+        <item>Театральная</item>
+        <item>Фадеевская</item>
+        <item>Набережная</item>
+        <item>Центральная</item>
+        <item>1-я Первомайская</item>
+        <item>4-я Первомайская</item>
+        <item>Авиационная</item>
+        <item>Александра Лукьянова</item>
+        <item>Борисогорское поле</item>
+        <item>Вали Голубевой</item>
+        <item>Волгоградская</item>
+        <item>Волховский</item>
+        <item>Воронежская</item>
+        <item>Гоголя</item>
+        <item>Державина</item>
+        <item>Дзержинского</item>
+        <item>Железнодорожный</item>
+        <item>Званка</item>
+        <item>Ильинская</item>
+        <item>Калинина</item>
+        <item>Кирова</item>
+        <item>Кировский</item>
+        <item>Коммунаров</item>
+        <item>Кооперативная</item>
+        <item>Ладожский</item>
+        <item>Ломоносова</item>
+        <item>Льва Толстого</item>
+        <item>Майская</item>
+        <item>Марата</item>
+        <item>Мирошниченко</item>
+        <item>Мичурина</item>
+        <item>Нахимова</item>
+        <item>Некрасова</item>
+        <item>Новгородская</item>
+        <item>Новостроевская</item>
+        <item>Октябрьская набережная</item>
+        <item>Олега Кошевого</item>
+        <item>Островского</item>
+        <item>Петрозаводская</item>
+        <item>Пирогова</item>
+        <item>Пороги</item>
+        <item>Пролетарская</item>
+        <item>Профсоюзов</item>
+        <item>Пустынная</item>
+        <item>Работниц</item>
+        <item>Расстанная</item>
+        <item>Сплавная</item>
+        <item>Станиславского</item>
+        <item>Степана Разина</item>
+        <item>Суворова</item>
+        <item>Федюнинского</item>
+        <item>Фрунзе</item>
+        <item>Чайковского</item>
+        <item>Щорса</item>
+        <item>Южный</item>
+        <item>Юрия Гагарина</item>
+        <item>Ярвенпяя</item>
+        <item>Переезд</item>
+        <item>Старосельская</item>
+        <item>Центральный</item>
+        <item>Алексино</item>
+        <item>Чернецкое</item>
+        <item>Петровская</item>
+        <item>1 Мая</item>
+        <item>А</item>
+        <item>А.Невского</item>
+        <item>В</item>
+        <item>Водников</item>
+        <item>Ворошилова</item>
+        <item>Гражданская</item>
+        <item>Карла Маркса</item>
+        <item>Кузнечный</item>
+        <item>Ладожской Флотилии</item>
+        <item>Луначарского</item>
+        <item>М.Горького</item>
+        <item>Новая Слобода</item>
+        <item>Озерный</item>
+        <item>Октябрьская</item>
+        <item>Пролетарский канал</item>
+        <item>Старый канал</item>
+        <item>Урицкого</item>
+        <item>Черокова</item>
+        <item>Павла Нечесанова</item>
+        <item>Станционная</item>
+        <item>Торговая</item>
+        <item>Школьный</item>
+        <item>Заводский остров</item>
+        <item>Новая Свирица</item>
+        <item>Птичий остров</item>
+        <item>Старая Свирица</item>
+        <item>Культуры</item>
+        <item>18 Июля</item>
+        <item>25 Октября</item>
+        <item>Бумажников</item>
+        <item>Кольцевая</item>
+        <item>Космонавтов</item>
+        <item>Ленина</item>
+        <item>Петра Лаврова</item>
+        <item>Строителей</item>
+        <item>Центр</item>
+        <item>Новоладожская</item>
+        <item>Жилгородок</item>
+        <item>мкр Плантации новогодних елок</item>
+        <item>Приозерское</item>
+        <item>Совхозная</item>
+        <item>Березовая</item>
+        <item>Широкая</item>
+        <item>Воронцовский</item>
+        <item>Клубный</item>
+        <item>Нижняя</item>
+        <item>Полевая</item>
+        <item>Средний</item>
+        <item>Шоссейная</item>
+        <item>Колхозная</item>
+        <item>Охтинская</item>
+        <item>Смольнинская</item>
+        <item>Токсовское</item>
+        <item>Автоколонная</item>
+        <item>А.Коробицына</item>
+        <item>Карассаровское</item>
+        <item>Ленинградское</item>
+        <item>Семафорная</item>
+        <item>Актинометрический</item>
+        <item>1-я</item>
+        <item>2-я</item>
+        <item>4-я</item>
+        <item>Александровская</item>
+        <item>Алексеевский</item>
+        <item>Аэропортовская</item>
+        <item>Балашова</item>
+        <item>Баркановская</item>
+        <item>Березовая роща</item>
+        <item>Бибиковская</item>
+        <item>Боровая</item>
+        <item>Варшавская</item>
+        <item>Василеозерская</item>
+        <item>Вахрушева</item>
+        <item>Верхняя</item>
+        <item>Взлетная</item>
+        <item>Вокка</item>
+        <item>Всеволожский</item>
+        <item>Героев</item>
+        <item>Герцена</item>
+        <item>Гончарова</item>
+        <item>Грибоедова</item>
+        <item>Дачная</item>
+        <item>Добровольского</item>
+        <item>Доктора Сотникова</item>
+        <item>Дружбы</item>
+        <item>Евграфова</item>
+        <item>Западная</item>
+        <item>Знаменская</item>
+        <item>Колтушское</item>
+        <item>Коммуны</item>
+        <item>Комсомола</item>
+        <item>Константиновская</item>
+        <item>Крылова</item>
+        <item>Крымская</item>
+        <item>Лубянская</item>
+        <item>Магистральная</item>
+        <item>Малиновского</item>
+        <item>Маяковского</item>
+        <item>Межевая</item>
+        <item>Московская</item>
+        <item>Надеждинская</item>
+        <item>Народная</item>
+        <item>Невская</item>
+        <item>Николаевская</item>
+        <item>Обороны</item>
+        <item>Окружная</item>
+        <item>Октябрьский</item>
+        <item>Олениных</item>
+        <item>Павловская</item>
+        <item>Парк Кенша</item>
+        <item>Парковый</item>
+        <item>Первомайский</item>
+        <item>Пермская</item>
+        <item>Плоткина</item>
+        <item>Победы</item>
+        <item>Почтовая</item>
+        <item>Преображенского</item>
+        <item>Приютинская</item>
+        <item>Производственная зона города Всеволожска</item>
+        <item>Пугоревский</item>
+        <item>Рябовское</item>
+        <item>Связи</item>
+        <item>Сергиевская</item>
+        <item>Станционный</item>
+        <item>Степной</item>
+        <item>Толстого</item>
+        <item>Торговый</item>
+        <item>Тургенева</item>
+        <item>Фонвизина</item>
+        <item>Христиновский</item>
+        <item>Центральная (Южный)</item>
+        <item>Чернышевского</item>
+        <item>Шевченко</item>
+        <item>Шинников</item>
+        <item>Шишканя</item>
+        <item>1-й Пятилетки</item>
+        <item>Динкевича</item>
+        <item>Томилина</item>
+        <item>Забогонского</item>
+        <item>Жука</item>
+        <item>Ладожская</item>
+        <item>Мира</item>
+        <item>Петрокрепость</item>
+        <item>Рабочего Батальона</item>
+        <item>Спорта</item>
+        <item>Хесина</item>
+        <item>Ермаковская</item>
+        <item>Западный</item>
+        <item>Солнечная</item>
+        <item>Муравицкого</item>
+        <item>Цветочная</item>
+        <item>Австрийская</item>
+        <item>Английская</item>
+        <item>Венская</item>
+        <item>Европейский</item>
+        <item>Каштановая</item>
+        <item>Областная</item>
+        <item>Пражская</item>
+        <item>Столичная</item>
+        <item>Заозерная</item>
+        <item>Ленинградское шоссе</item>
+        <item>Л.Иванова</item>
+        <item>Придорожная</item>
+        <item>Красноборская</item>
+        <item>Горная</item>
+        <item>Авиаторов Балтики</item>
+        <item>Бульвар Менделеева</item>
+        <item>Графская</item>
+        <item>Екатерининская</item>
+        <item>Менделеева</item>
+        <item>Оборонная</item>
+        <item>Петровский</item>
+        <item>Скандинавский</item>
+        <item>Челябинская</item>
+        <item>Шоссе в Лаврики</item>
+        <item>Шувалова</item>
+        <item>Арсенальная</item>
+        <item>Главная</item>
+        <item>Озерная</item>
+        <item>Славы</item>
+        <item>Флотская</item>
+        <item>Энергетиков</item>
+        <item>Быкова</item>
+        <item>Морской</item>
+        <item>Виркинский</item>
+        <item>Дубовая</item>
+        <item>Заречная</item>
+        <item>Овражная</item>
+        <item>Гладкинская</item>
+        <item>Лары Михеенко</item>
+        <item>Октябрьское</item>
+        <item>Севастьянова</item>
+        <item>Дорога Жизни</item>
+        <item>Пограничная</item>
+        <item>Восточно-Выборгское</item>
+        <item>Выборгское</item>
+        <item>Кленовая</item>
+        <item>Ларина</item>
+        <item>Индустриальная</item>
+        <item>Молодцова</item>
+        <item>Д.Кожемякина</item>
+        <item>Сосновая</item>
+        <item>Тихвинская</item>
+        <item>Черная Речка</item>
+        <item>Верная</item>
+        <item>Златоглавая</item>
+        <item>Любимая</item>
+        <item>Баррикадная 1-я</item>
+        <item>Генерала Чоглокова</item>
+        <item>Иоанна Кронштадтского</item>
+        <item>Молочный</item>
+        <item>Жданова</item>
+        <item>Институтская</item>
+        <item>Островная</item>
+        <item>Аллюминская</item>
+        <item>Рабочая</item>
+        <item>Ржавского</item>
+        <item>61 в/г</item>
+        <item>Дорожников</item>
+        <item>Инженерная</item>
+        <item>Короткий</item>
+        <item>Лесовода Морозова</item>
+        <item>Озерной</item>
+        <item>Офицерская</item>
+        <item>Санаторная</item>
+        <item>Еловая Аллея</item>
+        <item>Военный городок</item>
+        <item>Голландская</item>
+        <item>Заневская</item>
+        <item>Оранжевая</item>
+        <item>Выборгская</item>
+        <item>Говорова</item>
+        <item>Машинная</item>
+        <item>Солдатская</item>
+        <item>Цветочный</item>
+        <item>1-я Бригадная</item>
+        <item>1-я Озёрная</item>
+        <item>2-я Бригадная</item>
+        <item>2-я Озёрная</item>
+        <item>3-я Бригадная</item>
+        <item>3-я Полевая</item>
+        <item>40-летия ВЛКСМ</item>
+        <item>4-я Бригадная</item>
+        <item>4-я Озёрная</item>
+        <item>5-я Бригадная</item>
+        <item>5-я Озёрная</item>
+        <item>6-я Озёрная</item>
+        <item>Акулова</item>
+        <item>Александра Невского</item>
+        <item>Ардашева</item>
+        <item>Аристарха Макарова</item>
+        <item>Батарейная</item>
+        <item>Береговая</item>
+        <item>Большая Гвардейская</item>
+        <item>Большая Каменная</item>
+        <item>Большая Чернозёмная</item>
+        <item>Васильева</item>
+        <item>Весенний Поток</item>
+        <item>Весенняя Тропа</item>
+        <item>Водная</item>
+        <item>Водной Заставы</item>
+        <item>Военная</item>
+        <item>Волховская</item>
+        <item>Восстановительная</item>
+        <item>Госпитальная</item>
+        <item>Гранитная</item>
+        <item>Гранитно-Карьерная</item>
+        <item>Дальняя</item>
+        <item>Данилова</item>
+        <item>Декабриста Лунина</item>
+        <item>Димитрова</item>
+        <item>Дорожный</item>
+        <item>Зеленая Аллея</item>
+        <item>Изогнутая</item>
+        <item>Им А.Г.Харлова</item>
+        <item>Казарменная</item>
+        <item>Авиагородок</item>
+        <item>Гористая</item>
+        <item>Дремучий Остров</item>
+        <item>Клубная</item>
+        <item>Малиновская</item>
+        <item>Мельничная</item>
+        <item>Привокзальный</item>
+        <item>Речная 1-я</item>
+        <item>Речная 2-я</item>
+        <item>Рубероидная</item>
+        <item>Сайменское</item>
+        <item>Склонный</item>
+        <item>Хельсинское</item>
+        <item>Каменный</item>
+        <item>Каменный Берег</item>
+        <item>Кировская</item>
+        <item>Кировские Дачи</item>
+        <item>Красина</item>
+        <item>Крепостная</item>
+        <item>Кривоносова</item>
+        <item>Крутая</item>
+        <item>Кузнечная</item>
+        <item>Куйбышева</item>
+        <item>Кутузова</item>
+        <item>Ленинградский</item>
+        <item>Лесопильная</item>
+        <item>Ломаная</item>
+        <item>Майорова</item>
+        <item>Малая Водяная</item>
+        <item>Малая Гвардейская</item>
+        <item>Матвеевская</item>
+        <item>Михаила Васильева</item>
+        <item>Монрепо</item>
+        <item>Морская Набережная</item>
+        <item>Московский</item>
+        <item>Мостовой Переход</item>
+        <item>Новокарьерная</item>
+        <item>Новопоселковая</item>
+        <item>Одесский</item>
+        <item>Онежская</item>
+        <item>Орудийная</item>
+        <item>Отдельная</item>
+        <item>Подгорная</item>
+        <item>Пожарная</item>
+        <item>Поперечный</item>
+        <item>Приморская</item>
+        <item>Приморское</item>
+        <item>Прогонная</item>
+        <item>Продольная</item>
+        <item>Промышленная</item>
+        <item>Путейская</item>
+        <item>Пушкина</item>
+        <item>Резервная</item>
+        <item>Рельефный</item>
+        <item>Репина</item>
+        <item>Рихардовская</item>
+        <item>Ростовская</item>
+        <item>Рубежная</item>
+        <item>Рыбный</item>
+        <item>Сборная</item>
+        <item>Светогорский</item>
+        <item>Светогорское</item>
+        <item>Северный Вал</item>
+        <item>Сержантская</item>
+        <item>Симоняка</item>
+        <item>Скалистый</item>
+        <item>Смирновский</item>
+        <item>Смирновское</item>
+        <item>Сторожевой Башни</item>
+        <item>Стрелковая</item>
+        <item>Судостроительная</item>
+        <item>Сухова</item>
+        <item>Счётная</item>
+        <item>Таммисуо</item>
+        <item>Тенистая</item>
+        <item>Титова</item>
+        <item>Тихий</item>
+        <item>Травяная</item>
+        <item>Тупиковая</item>
+        <item>Ульяновская</item>
+        <item>Уральская</item>
+        <item>Ушакова</item>
+        <item>Физкультурная</item>
+        <item>Флагманская</item>
+        <item>Хвойная</item>
+        <item>Цветущий</item>
+        <item>Черноземная</item>
+        <item>Черноморский</item>
+        <item>Шестакова</item>
+        <item>Южная 1-я</item>
+        <item>Южная 2-я</item>
+        <item>Южная 3-я</item>
+        <item>Южный Вал</item>
+        <item>Дубинина</item>
+        <item>Калининская</item>
+        <item>Кремса</item>
+        <item>Мачтовая</item>
+        <item>Портовая</item>
+        <item>Героев Танкистов</item>
+        <item>Гончарная</item>
+        <item>Кохова</item>
+        <item>Набережная 1-я</item>
+        <item>Песчаная</item>
+        <item>Правая</item>
+        <item>Угловой</item>
+        <item>Поселковая</item>
+        <item>Тихая</item>
+        <item>Танкистов</item>
+        <item>Зеленый</item>
+        <item>Летчиков</item>
+        <item>Сентябрьская</item>
+        <item>Балтийская</item>
+        <item>Ольшанская</item>
+        <item>Голландский</item>
+        <item>Космическая</item>
+        <item>Благодатная</item>
+        <item>50 лет Октября</item>
+        <item>Ю.Литвинова</item>
+        <item>Фабричная</item>
+        <item>Юности</item>
+        <item>летчика Шаврова</item>
+        <item>Военных строителей</item>
+        <item>Им А.Самарина</item>
+        <item>Курсантский</item>
+        <item>Солдатский</item>
+        <item>Агафонова</item>
+        <item>Березовый</item>
+        <item>Вокзальный</item>
+        <item>Выборгский</item>
+        <item>Интернатский</item>
+        <item>Краснофлотский</item>
+        <item>Лебедева</item>
+        <item>Нагорный</item>
+        <item>Пляжная</item>
+        <item>Сосновый</item>
+        <item>Лесная 1-я</item>
+        <item>Сержанта Ганина</item>
+        <item>10-й Строительный</item>
+        <item>11-й Строительный</item>
+        <item>12-й Строительный</item>
+        <item>13-й Строительный</item>
+        <item>1-й Строительный</item>
+        <item>2-й Строительный</item>
+        <item>3-й Строительный</item>
+        <item>4-й Строительный</item>
+        <item>5-й Строительный</item>
+        <item>6-й Строительный</item>
+        <item>7-й Строительный</item>
+        <item>8-й Строительный</item>
+        <item>9-й Строительный</item>
+        <item>Банковский</item>
+        <item>Высокая</item>
+        <item>Дорожная</item>
+        <item>Еловая</item>
+        <item>Круговая</item>
+        <item>Лиственный</item>
+        <item>Малая Вокзальная</item>
+        <item>Моховая</item>
+        <item>Наклонная</item>
+        <item>Рябиновая</item>
+        <item>Садовый</item>
+        <item>Северный</item>
+        <item>Сухотского</item>
+        <item>Тракторная</item>
+        <item>Угловая</item>
+        <item>Филиппова</item>
+        <item>Чехова</item>
+        <item>Шалавина</item>
+        <item>Каменная</item>
+        <item>Гарькавого</item>
+        <item>Коробицына</item>
+        <item>Рощинская</item>
+        <item>Свекловичный</item>
+        <item>Яшинское</item>
+        <item>Зелёная</item>
+        <item>им М.Панфилова</item>
+        <item>Лесной</item>
+        <item>1 Семилетки</item>
+        <item>30 лет Победы</item>
+        <item>Комиссара Казначеева</item>
+        <item>Городок Ижора</item>
+        <item>Борницкий лес</item>
+        <item>З.Г.Колобанова</item>
+        <item>Манина</item>
+        <item>Ростова</item>
+        <item>Бакунина</item>
+        <item>Безымянный</item>
+        <item>Введенская</item>
+        <item>Воскресенская</item>
+        <item>Декабристов</item>
+        <item>Ефимова</item>
+        <item>Жертв Революции</item>
+        <item>Зональная</item>
+        <item>Коммунальный</item>
+        <item>Лейтенанта Шмидта</item>
+        <item>Майский</item>
+        <item>Мельничный</item>
+        <item>Мирошниковская</item>
+        <item>М.Расковой</item>
+        <item>Огородникова</item>
+        <item>Оредежская</item>
+        <item>Оредежский</item>
+        <item>Пильный</item>
+        <item>Плеханова</item>
+        <item>Пролетарский</item>
+        <item>Румянцева</item>
+        <item>Самарская</item>
+        <item>Сиверское</item>
+        <item>Симбирская</item>
+        <item>Слуцкая</item>
+        <item>Соболевского</item>
+        <item>Соседская</item>
+        <item>Софийская</item>
+        <item>Средняя</item>
+        <item>Суворовский</item>
+        <item>Ушаковская</item>
+        <item>Черняховского</item>
+        <item>Шифлеровская</item>
+        <item>Большой</item>
+        <item>Олейниковой</item>
+        <item>120 Гатчинской дивизии</item>
+        <item>7-й Армии</item>
+        <item>Авиаторов</item>
+        <item>Авиатриссы Зверевой</item>
+        <item>Академика Константинова</item>
+        <item>Багажная</item>
+        <item>Беляева</item>
+        <item>Варшавская линия 46</item>
+        <item>Волкова</item>
+        <item>Воскова</item>
+        <item>Генерала Кныша</item>
+        <item>Генерала Сандалова</item>
+        <item>Глинки</item>
+        <item>Горького</item>
+        <item>Гречишкина</item>
+        <item>Григорина</item>
+        <item>Детскосельская</item>
+        <item>Достоевского</item>
+        <item>Жемчужина</item>
+        <item>Изотова</item>
+        <item>Инженерный</item>
+        <item>Киевская</item>
+        <item>Киргетова</item>
+        <item>К.Маркса</item>
+        <item>Коли Подрядчикова</item>
+        <item>Комсомольцев-подпольщиков</item>
+        <item>Красноармейский</item>
+        <item>Красносельское</item>
+        <item>Красных Военлетов</item>
+        <item>Крупской</item>
+        <item>Кузьмина</item>
+        <item>Куприна</item>
+        <item>Кустова</item>
+        <item>Леонова</item>
+        <item>Матвеева</item>
+        <item>Металлистов</item>
+        <item>Нади Федоровой</item>
+        <item>Нестерова</item>
+        <item>Новопролетарская</item>
+        <item>Новоселов</item>
+        <item>Приоратская</item>
+        <item>Профессора Русинова</item>
+        <item>Пушкинское</item>
+        <item>Радищева</item>
+        <item>Рошаля</item>
+        <item>Рыбакова</item>
+        <item>Рысева</item>
+        <item>Слепнева</item>
+        <item>Соборная</item>
+        <item>Сойту</item>
+        <item>Солнечный</item>
+        <item>Солодухина</item>
+        <item>Старая</item>
+        <item>Товарная-Балтийская</item>
+        <item>Хохлова</item>
+        <item>Чкалова</item>
+        <item>Введенского</item>
+        <item>Здравомыслова</item>
+        <item>Красницкая</item>
+        <item>Уткина</item>
+        <item>ДПБ</item>
+        <item>Карьерная</item>
+        <item>Дылицкое</item>
+        <item>Красный</item>
+        <item>Леонида Басова</item>
+        <item>Героев пограничников</item>
+        <item>Железнодорожная будка 61</item>
+        <item>Железнодорожная будка 62</item>
+        <item>Приречная</item>
+        <item>Советских воинов</item>
+        <item>Весенняя</item>
+        <item>Славянская</item>
+        <item>Ижорская</item>
+        <item>Казарма 34 км</item>
+        <item>Куралева</item>
+        <item>Малый</item>
+        <item>Ново-Антропшинская</item>
+        <item>Речной</item>
+        <item>Технический</item>
+        <item>Транспортный</item>
+        <item>Вырицкий</item>
+        <item>Киевское</item>
+        <item>Кириллова</item>
+        <item>Кутышева</item>
+        <item>4-я Тяговая</item>
+        <item>Коммунальная</item>
+        <item>Тягловая 4-я</item>
+        <item>Меньковская</item>
+        <item>86 км</item>
+        <item>Усова</item>
+        <item>Большая</item>
+        <item>Казарма 59</item>
+        <item>Вырицкое</item>
+        <item>Ленэнерго</item>
+        <item>Тосненская ветка 4</item>
+        <item>Речная</item>
+        <item>Зайончковского</item>
+        <item>Половинкиной</item>
+        <item>Болотная</item>
+        <item>ГЭС</item>
+        <item>Терещенко</item>
+        <item>Казармы 44</item>
+        <item>Казармы 45</item>
+        <item>123 Дивизии</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>Авроры</item>
+        <item>Белогорское</item>
+        <item>Вишневского</item>
+        <item>Владимирская</item>
+        <item>Газа</item>
+        <item>Дружногорское</item>
+        <item>Дружносельская</item>
+        <item>Комсомольский</item>
+        <item>Крамского</item>
+        <item>Лермонтова</item>
+        <item>Липовая</item>
+        <item>Мариинская</item>
+        <item>МТС</item>
+        <item>Паркетная</item>
+        <item>Паркетный</item>
+        <item>Пионерский</item>
+        <item>Республиканский</item>
+        <item>Саши Никифорова</item>
+        <item>Толмачева</item>
+        <item>Федоровская</item>
+        <item>Чапаева</item>
+        <item>Казарма 72</item>
+        <item>Кезевская</item>
+        <item>5-я</item>
+        <item>6-я</item>
+        <item>7-я</item>
+        <item>Казармы 49</item>
+        <item>Казармы 51</item>
+        <item>Павловский</item>
+        <item>Санаторская</item>
+        <item>ст Тайцы 34</item>
+        <item>Юного Ленинца</item>
+        <item>Сельская</item>
+        <item>Тосненская ветка 6</item>
+        <item>Алексея Рыкунова</item>
+        <item>Кронштадтская</item>
+        <item>Восточная</item>
+        <item>Кингисеппское</item>
+        <item>Котовского</item>
+        <item>Льнопрядильная</item>
+        <item>Пасторова</item>
+        <item>Псковская</item>
+        <item>Суконная</item>
+        <item>Текстильщиков</item>
+        <item>Аптекарский</item>
+        <item>Большая гражданская</item>
+        <item>Большая Советская</item>
+        <item>Воровского</item>
+        <item>Иванова</item>
+        <item>Ковалевского</item>
+        <item>Крикковское</item>
+        <item>Линейный</item>
+        <item>Малая</item>
+        <item>Нарвское</item>
+        <item>Таможенная</item>
+        <item>Химиков</item>
+        <item>Краколье</item>
+        <item>Ленрыба</item>
+        <item>Судоверфь</item>
+        <item>Делегатская</item>
+        <item>Зелёная Набережная</item>
+        <item>Исполкомовская</item>
+        <item>Кирпичная</item>
+        <item>Озёрная</item>
+        <item>Учительская</item>
+        <item>Декабристов Бестужевых</item>
+        <item>Молодежный</item>
+        <item>Нефтехимиков</item>
+        <item>Плавницкий</item>
+        <item>Романтиков</item>
+        <item>Комарова</item>
+        <item>Набережная 2-я</item>
+        <item>Косая</item>
+        <item>Десантника Исаева</item>
+        <item>Партизанской Славы</item>
+        <item>Петуниной</item>
+        <item>Донецкая</item>
+        <item>Красного Октября</item>
+        <item>Майора Жаринова</item>
+        <item>Мгинской правды</item>
+        <item>Ольховая</item>
+        <item>Революции</item>
+        <item>Советский</item>
+        <item>Артеменко</item>
+        <item>Есенина</item>
+        <item>Луговая</item>
+        <item>Матросова</item>
+        <item>Международная</item>
+        <item>Торфянников</item>
+        <item>16-я</item>
+        <item>17-я</item>
+        <item>Зарубина</item>
+        <item>Международный</item>
+        <item>Никольское</item>
+        <item>Щурова</item>
+        <item>Братьев Пожарских</item>
+        <item>Дорофеева</item>
+        <item>Игнашкиных</item>
+        <item>Полянки</item>
+        <item>Кравченко</item>
+        <item>18 Января</item>
+        <item>Затонная</item>
+        <item>Малоневский канал</item>
+        <item>Новоладожский канал</item>
+        <item>Староладожский канал</item>
+        <item>Ульянова</item>
+        <item>Чекалова</item>
+        <item>ПМК-17</item>
+        <item>Алеховщинская</item>
+        <item>Алеховщинский</item>
+        <item>Высоковольтная</item>
+        <item>Зуевская</item>
+        <item>Лодейнопольский</item>
+        <item>Лодейнопольское шоссе</item>
+        <item>Новосельская</item>
+        <item>Разъезжая</item>
+        <item>Оятская</item>
+        <item>Военкоматский</item>
+        <item>Возрождения</item>
+        <item>Заостровский</item>
+        <item>Имени Дмитрия Арсенова</item>
+        <item>И.Ярославцева</item>
+        <item>Киреева</item>
+        <item>Лесорубов</item>
+        <item>Мошкина</item>
+        <item>Односторонний</item>
+        <item>О.Кошевого</item>
+        <item>Онежский</item>
+        <item>Песочный</item>
+        <item>Профсоюзная</item>
+        <item>Рабоче-крестьянская</item>
+        <item>Республиканская</item>
+        <item>Республиканский тракт</item>
+        <item>Розы Люксембург</item>
+        <item>Свердлова</item>
+        <item>Сельский</item>
+        <item>Спортивный</item>
+        <item>Талалихина</item>
+        <item>Ударника</item>
+        <item>Шмакова</item>
+        <item>Рекинский</item>
+        <item>Новый</item>
+        <item>Графтио</item>
+        <item>Свирская</item>
+        <item>10 Пятилетки</item>
+        <item>Астанина</item>
+        <item>Петросьяна</item>
+        <item>Волхонское</item>
+        <item>Санинское</item>
+        <item>Ропшинское</item>
+        <item>Уланская</item>
+        <item>Детская</item>
+        <item>Ильина</item>
+        <item>Линейная</item>
+        <item>Лоцманская</item>
+        <item>Путейная</item>
+        <item>Степаняна</item>
+        <item>Современников</item>
+        <item>Питерский</item>
+        <item>Стрельнинская</item>
+        <item>Стрельнинское</item>
+        <item>2-й бригады моряков</item>
+        <item>Гвардейская</item>
+        <item>Олимпийская</item>
+        <item>Прибалтийская</item>
+        <item>Проезжий</item>
+        <item>Лужская</item>
+        <item>9 км</item>
+        <item>Полевой</item>
+        <item>131км</item>
+        <item>135 км</item>
+        <item>Алексея Васильева</item>
+        <item>А.Яковлева</item>
+        <item>Большая Заречная</item>
+        <item>Большая Инженерная</item>
+        <item>Виктора Пислегина</item>
+        <item>Волынский</item>
+        <item>Гродненский</item>
+        <item>Дача Черемушки</item>
+        <item>Дмитриева</item>
+        <item>Заречная 5-я</item>
+        <item>Заречная 6-я</item>
+        <item>Заречная 9-я</item>
+        <item>Кингисеппа</item>
+        <item>Красной Артиллерии</item>
+        <item>Лужский</item>
+        <item>Малая Инженерная</item>
+        <item>Медведское</item>
+        <item>Миккели</item>
+        <item>Наплатинская</item>
+        <item>Нижегородская</item>
+        <item>Орловская</item>
+        <item>Партизанская</item>
+        <item>Переездный</item>
+        <item>Петергофский</item>
+        <item>Петра Баранова</item>
+        <item>Рижский</item>
+        <item>Свободы</item>
+        <item>Сержанта Бычкова</item>
+        <item>Смоленская</item>
+        <item>Солецкая</item>
+        <item>С.Перовской</item>
+        <item>Средняя Заречная</item>
+        <item>Старорусская</item>
+        <item>Тоси Петровой</item>
+        <item>Тульская</item>
+        <item>Шлиссельбургский</item>
+        <item>Юношеская</item>
+        <item>Яна Фабрициуса</item>
+        <item>Малая Железнодорожная</item>
+        <item>Энгельса</item>
+        <item>Калабанова</item>
+        <item>Луговой</item>
+        <item>Транспортная</item>
+        <item>20 Съезд</item>
+        <item>124</item>
+        <item>Заводская 5-я</item>
+        <item>Морская</item>
+        <item>Парк</item>
+        <item>Прохорова</item>
+        <item>Железнодорожная 1-я</item>
+        <item>Малая Торговая</item>
+        <item>Козлова</item>
+        <item>Осташева</item>
+        <item>Трифанова</item>
+        <item>50 лет ВЛКСМ</item>
+        <item>Великодворская</item>
+        <item>Оятский</item>
+        <item>Смирнова</item>
+        <item>Базарная</item>
+        <item>Горный</item>
+        <item>Онежской флотилии</item>
+        <item>Лисицыной</item>
+        <item>Речного Флота</item>
+        <item>Архангельский</item>
+        <item>Белозерская</item>
+        <item>Гнаровской</item>
+        <item>Исакова</item>
+        <item>Конная</item>
+        <item>Конституции</item>
+        <item>Красного Флота</item>
+        <item>Куккоевой</item>
+        <item>Механический</item>
+        <item>Мостопоезд</item>
+        <item>Паромная</item>
+        <item>Планеристов</item>
+        <item>Погринская</item>
+        <item>Подпорожье</item>
+        <item>Полещука</item>
+        <item>Пристанской</item>
+        <item>Речников</item>
+        <item>Преображенская</item>
+        <item>Совхозный</item>
+        <item>Веселая</item>
+        <item>Урожайная</item>
+        <item>Фестивальная</item>
+        <item>Новостроек</item>
+        <item>Льва Кириллова</item>
+        <item>Приладожское</item>
+        <item>Рыбацкая</item>
+        <item>Ларионова</item>
+        <item>4-я Подгорная</item>
+        <item>Ручейковая</item>
+        <item>Леншоссе</item>
+        <item>Гастелло</item>
+        <item>Героя Богданова</item>
+        <item>Дачный поселок</item>
+        <item>Квартальная</item>
+        <item>Кокорина</item>
+        <item>Короленко</item>
+        <item>Литейная</item>
+        <item>Огородников</item>
+        <item>Поперечная</item>
+        <item>Северопарковая</item>
+        <item>Сокращенная</item>
+        <item>Столярный</item>
+        <item>Цветкова</item>
+        <item>Ногирская</item>
+        <item>Варшко</item>
+        <item>Типанова</item>
+        <item>Типанова 1-я</item>
+        <item>Типанова 2-я</item>
+        <item>Типанова 3-я</item>
+        <item>Типанова 4-я</item>
+        <item>Академическая</item>
+        <item>Газовый</item>
+        <item>Зеленая Горка</item>
+        <item>Никитина</item>
+        <item>Свободный</item>
+        <item>Типографский</item>
+        <item>Банковская</item>
+        <item>Баранова</item>
+        <item>Док</item>
+        <item>Жуковского</item>
+        <item>Климчука</item>
+        <item>Максима Горького</item>
+        <item>Почтовый</item>
+        <item>Профсоюзный</item>
+        <item>Трестовский</item>
+        <item>Шахтерской Славы</item>
+        <item>1-й Восточный</item>
+        <item>Высотная</item>
+        <item>Копорское</item>
+        <item>Красных Фортов</item>
+        <item>Ленинская</item>
+        <item>Липовский</item>
+        <item>Малая Земля</item>
+        <item>Машиностроителей</item>
+        <item>Петра Великого</item>
+        <item>Сибирская</item>
+        <item>Подгаецкого</item>
+        <item>Ястребова</item>
+        <item>летчика Кузнецова</item>
+        <item>1</item>
+        <item>1а</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>Борисова</item>
+        <item>Верхне-Береговая</item>
+        <item>Зайцева</item>
+        <item>Красавский</item>
+        <item>Ново-Вязитская</item>
+        <item>Ново-Советская</item>
+        <item>Плаунская</item>
+        <item>Полевая-Кузнецкая</item>
+        <item>Пригородная</item>
+        <item>Пролетарской Диктатуры</item>
+        <item>Ращупкина</item>
+        <item>Римского-Корсакова</item>
+        <item>Улитов Ручей</item>
+        <item>Усадьба РТС</item>
+        <item>Учебный городок</item>
+        <item>Чернышевская</item>
+        <item>Шведский</item>
+        <item>Юных Разведчиков</item>
+        <item>Ярослава Иванова</item>
+        <item>Капшинская</item>
+        <item>Лиственная</item>
+        <item>Ручейная</item>
+        <item>8 Дорога</item>
+        <item>Горская</item>
+        <item>Дубровского</item>
+        <item>Колпинская</item>
+        <item>Тяговая подстанция</item>
+        <item>1-го Мая</item>
+        <item>Забалканская</item>
+        <item>Загородное</item>
+        <item>К.Либкнехта</item>
+        <item>Мельникова</item>
+        <item>Московское</item>
+        <item>Октября</item>
+        <item>Селецкое</item>
+        <item>Казарма 40км</item>
+        <item>Раванская</item>
+        <item>Мысленская</item>
+        <item>Рычина</item>
+        <item>Казарма 36</item>
+        <item>Барыбина</item>
+        <item>Блинникова</item>
+        <item>Боярова</item>
+        <item>ГО-1</item>
+        <item>Ижорский</item>
+        <item>Пожарный</item>
+        <item>Тотмина</item>
+        <item>Воронеостровская</item>
+        <item>11-я</item>
+        <item>14-я</item>
+        <item>15-я</item>
+        <item>8 Марта</item>
+        <item>8-я</item>
+        <item>Кирпичный</item>
+        <item>Левая Линия</item>
+        <item>Мгинская линия</item>
+        <item>Морозова</item>
+        <item>Типографская</item>
+        <item>Ульяновское</item>
+        <item>Щербакова</item>
+        <item>Вотчинская</item>
+        <item>Павловское</item>
+        <item>Шаронова</item>
+    </string-array>
+
+    <string-array name="houses">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>4a</item>
+        <item>7-а</item>
+        <item>13.ноя</item>
+        <item>15</item>
+        <item>16</item>
+        <item>19</item>
+        <item>21</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>29</item>
+        <item>30</item>
+        <item>32</item>
+        <item>7</item>
+        <item>9</item>
+        <item>1</item>
+        <item>6</item>
+        <item>10</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>17</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>02.янв</item>
+        <item>8</item>
+        <item>5</item>
+        <item>6а</item>
+        <item>07.фев</item>
+        <item>11.фев</item>
+        <item>13.янв</item>
+        <item>7</item>
+        <item>8</item>
+        <item>окт.21</item>
+        <item>дек.18</item>
+        <item>13/20</item>
+        <item>14</item>
+        <item>16.ноя</item>
+        <item>18/18</item>
+        <item>19/13</item>
+        <item>26.ноя</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>янв.31</item>
+        <item>2</item>
+        <item>3.</item>
+        <item>3-а</item>
+        <item>9а (дубль 1)</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>18а</item>
+        <item>21</item>
+        <item>27.фев</item>
+        <item>29</item>
+        <item>33</item>
+        <item>37</item>
+        <item>39</item>
+        <item>около дома № 37</item>
+        <item>5а</item>
+        <item>11</item>
+        <item>12.июл</item>
+        <item>13</item>
+        <item>14</item>
+        <item>16/19</item>
+        <item>20</item>
+        <item>20а</item>
+        <item>22</item>
+        <item>22а</item>
+        <item>11</item>
+        <item>10</item>
+        <item>12</item>
+        <item>16.янв</item>
+        <item>19</item>
+        <item>19.фев</item>
+        <item>22.янв</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>12</item>
+        <item>08.дек</item>
+        <item>9</item>
+        <item>ноя.15</item>
+        <item>14/13</item>
+        <item>16.июн</item>
+        <item>23</item>
+        <item>24.авг</item>
+        <item>24.авг</item>
+        <item>28</item>
+        <item>32/5</item>
+        <item>5а</item>
+        <item>13.янв</item>
+        <item>15.фев</item>
+        <item>25</item>
+        <item>27</item>
+        <item>31</item>
+        <item>272</item>
+        <item>будка 272</item>
+        <item>около дома № 16</item>
+        <item>44</item>
+        <item>казарма 272</item>
+        <item>б/н</item>
+        <item>80</item>
+        <item>43</item>
+        <item>18</item>
+        <item>34</item>
+        <item>36</item>
+        <item>50</item>
+        <item>11-а</item>
+        <item>11-б</item>
+        <item>26</item>
+        <item>31</item>
+        <item>35</item>
+        <item>38</item>
+        <item>40</item>
+        <item>48</item>
+        <item>6а</item>
+        <item>11</item>
+        <item>4б</item>
+        <item>4в</item>
+        <item>4в</item>
+        <item>июн.15</item>
+        <item>42</item>
+        <item>44</item>
+        <item>46</item>
+        <item>52</item>
+        <item>56</item>
+        <item>12 новый</item>
+        <item>16 новый</item>
+        <item>11 новый</item>
+        <item>2а</item>
+        <item>45</item>
+        <item>54</item>
+        <item>55</item>
+        <item>57</item>
+        <item>58</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>68</item>
+        <item>70</item>
+        <item>Дом 72</item>
+        <item>13</item>
+        <item>81</item>
+        <item>82</item>
+        <item>д.82</item>
+        <item>около д.80</item>
+        <item>угол д.25 и 26</item>
+        <item>12а</item>
+        <item>10</item>
+        <item>11</item>
+        <item>33а</item>
+        <item>49</item>
+        <item>51</item>
+        <item>53</item>
+        <item>76</item>
+        <item>78</item>
+        <item>82</item>
+        <item>84</item>
+        <item>86</item>
+        <item>88</item>
+        <item>99</item>
+        <item>101</item>
+        <item>107</item>
+        <item>115</item>
+        <item>119</item>
+        <item>121</item>
+        <item>123</item>
+        <item>125</item>
+        <item>1а</item>
+        <item>38а</item>
+        <item>4</item>
+        <item>6</item>
+        <item>12</item>
+        <item>8</item>
+        <item>9а</item>
+        <item>11a</item>
+        <item>11А</item>
+        <item>3</item>
+        <item>5</item>
+        <item>9</item>
+        <item>19а</item>
+        <item>5</item>
+        <item>16а</item>
+        <item>8</item>
+        <item>1а</item>
+        <item>2</item>
+        <item>33</item>
+        <item>6</item>
+        <item>7</item>
+        <item>7а</item>
+        <item>9</item>
+        <item>12</item>
+        <item>10а</item>
+        <item>14</item>
+        <item>40</item>
+        <item>5</item>
+        <item>21а</item>
+        <item>21</item>
+        <item>4а</item>
+        <item>32</item>
+        <item>46</item>
+        <item>70</item>
+        <item>72</item>
+        <item>74</item>
+        <item>3</item>
+        <item>4</item>
+        <item>8</item>
+        <item>36</item>
+        <item>48</item>
+        <item>10</item>
+        <item>11</item>
+        <item>25а</item>
+        <item>25б</item>
+        <item>29а</item>
+        <item>30а</item>
+        <item>31</item>
+        <item>34.</item>
+        <item>34</item>
+        <item>38</item>
+        <item>38а</item>
+        <item>16а</item>
+        <item>18а</item>
+        <item>22</item>
+    </string-array>
 </resources>

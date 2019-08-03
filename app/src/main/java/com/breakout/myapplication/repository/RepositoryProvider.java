@@ -12,7 +12,7 @@ public class RepositoryProvider {
     }
 
     @NonNull
-    public static CoursesRepository getCoursesRepository() {
+    public static CoursesRepository getLocationRepository() {
         if (repository == null) {
             repository = new DefaultCoursesRepository();
         }

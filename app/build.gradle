@@ -3,13 +3,13 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.breakout.myapplication"
+        applicationId "com.breakout.hacker"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "API_ENDPOINT", '"http://192.168.42.70:54207/homepage/houses/calc/"')
+        buildConfigField("String", "API_ENDPOINT", '"http://froluia.pythonanywhere.com/calculate/api/"')
 
     }
     compileOptions {

@@ -24,7 +24,7 @@ public final class ApiFactory {
     }
 
     @NonNull
-    public static EducationService getEducationService() {
+    public static EducationService getCityService() {
         EducationService service = sService;
         if (service == null) {
             synchronized (ApiFactory.class) {

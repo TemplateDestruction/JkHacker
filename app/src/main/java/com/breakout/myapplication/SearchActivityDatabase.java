@@ -1,11 +1,7 @@
 package com.breakout.myapplication;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
-import android.content.res.AssetManager;
 import android.database.Cursor;
-import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
@@ -19,11 +15,9 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.breakout.myapplication.model.Example;
 import com.breakout.myapplication.repository.RepositoryProvider;
 import com.toptoche.searchablespinnerlibrary.SearchableSpinner;
 
-import java.io.IOException;
 import java.util.List;
 
 import static com.github.mikephil.charting.charts.Chart.LOG_TAG;
@@ -80,6 +74,7 @@ public class SearchActivityDatabase extends AppCompatActivity {
 //        borrows.add("gatc");
 //        borrows.add("gatcia");
 //        borrows.add("tciha");
+
 
         DataBaseHelper myDbHelper = new DataBaseHelper(this);
         myDbHelper.openDataBase();
@@ -197,7 +192,7 @@ public class SearchActivityDatabase extends AppCompatActivity {
         borrowSpin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                loadPoints();
+//                loadPoints();
                 String bor = borrows.get(position);
                 Toast.makeText(SearchActivityDatabase.this, bor, Toast.LENGTH_SHORT).show();
             }
@@ -209,33 +204,12 @@ public class SearchActivityDatabase extends AppCompatActivity {
         });
     }
 
-    private void loadPoints() {
-        RepositoryProvider
-                .getCoursesRepository()
-                .getLivePoints()
-                .subscribe(this::onComplete, this::onError);
-        //on Next
-    }
 
     private void onError(Throwable throwable) {
         System.out.println(throwable.getLocalizedMessage());
     }
 
-    private void onComplete(List<Example> examples) {
-        for (Example example : examples) {
-            points.add(example.getName());
-        }
-        setPointSpin(pointSpin, points);
 
-    }
-
-
-    public void onSearchClick(View view) {
-        //send location to server
-
-        //on Next
-        startActivity(new Intent(this, ResultAcitivity.class));
-    }
 
 
 

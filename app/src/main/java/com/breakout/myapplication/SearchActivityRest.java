@@ -1,5 +1,6 @@
 package com.breakout.myapplication;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,19 +10,19 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Toast;
 
-import com.anychart.anychart.ScaleCompareWithMode;
 import com.breakout.myapplication.model.CalcModel;
 import com.breakout.myapplication.model.UKmodel;
 import com.breakout.myapplication.repository.RepositoryProvider;
+import com.breakout.myapplication.standard.LoadingDialog;
+import com.breakout.myapplication.standard.LoadingView;
 import com.toptoche.searchablespinnerlibrary.SearchableSpinner;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class SearchActivity extends AppCompatActivity {
+public class SearchActivityRest extends AppCompatActivity {
 
     SearchableSpinner borrowSpin;
     SearchableSpinner pointSpin;
@@ -29,11 +30,12 @@ public class SearchActivity extends AppCompatActivity {
     SearchableSpinner homeSpin;
     SearchableSpinner searchableSpinner;
     Button button;
+    private LoadingView dialog;
 
     String[] borrows;
-    String[] points;
-    String[] streets;
-    String[] homes;
+    String[] cities;
+    List<String> streets;
+    List<String> homes;
     Intent intent;
     List<CalcModel> calcModels;
     List<UKmodel> uKmodels;
@@ -46,6 +48,7 @@ public class SearchActivity extends AppCompatActivity {
         Random rnd = new Random(10000);
         calcModels = new ArrayList<>();
         uKmodels = new ArrayList<>();
+        dialog = LoadingDialog.view(getSupportFragmentManager());
         for (int i = 0; i < 400; i++) {
             int calc1 = random.nextInt() + 25000;
             int calc2 = random.nextInt() + 50000;
@@ -86,8 +89,8 @@ public class SearchActivity extends AppCompatActivity {
         streetSpin.setTitle("Улица");
         homeSpin.setTitle("Дом");
 
-        loadBorrows();
-//        loadPoints();
+//        loadBorrows();
+        loadCities();
 
 
 
@@ -101,7 +104,7 @@ public class SearchActivity extends AppCompatActivity {
 
     }
 
-    private void setHomeSpin(Spinner homeSpin, String[] homes) {
+    private void setHomeSpin(Spinner homeSpin, List<String> homes) {
         ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, homes);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         homeSpin.setAdapter(adapter);
@@ -120,14 +123,14 @@ public class SearchActivity extends AppCompatActivity {
         });
     }
 
-    private void setStreetsSpin(Spinner streetSpin, String[] streets) {
+    private void setStreetsSpin(Spinner streetSpin, List<String> streets) {
         ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, streets);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         streetSpin.setAdapter(adapter);
         streetSpin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                loadHomes();
+                loadHomes(streets.get(position));
             }
 
             @Override
@@ -137,19 +140,31 @@ public class SearchActivity extends AppCompatActivity {
         });
     }
 
-    private void loadHomes() {
-        homes = getResources().getStringArray(R.array.houses);
+    @SuppressLint("CheckResult")
+    private void loadHomes(String street) {
+        RepositoryProvider
+                .getLocationRepository()
+                .getHomes(" " + street)
+                .doOnSubscribe(disposable -> {dialog.showLoadingIndicator(disposable);})
+                .doAfterTerminate(dialog::hideLoadingIndicator)
+                .subscribe(this::onCompleteHomes, this::onError);
+
+        //on Next
+    }
+
+    private void onCompleteHomes(List<String> strings) {
+        homes = strings;
         setHomeSpin(homeSpin, homes);
     }
 
-    private void setPointSpin(Spinner pointSpin, String[] points) {
-        ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, points);
+    private void setPointSpin(Spinner pointSpin, String[] cities) {
+        ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, cities);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         pointSpin.setAdapter(adapter);
         pointSpin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                loadStreets();
+                loadStreets(cities[position]);
             }
 
             @Override
@@ -159,11 +174,24 @@ public class SearchActivity extends AppCompatActivity {
         });
     }
 
-    private void loadStreets() {
-        //on Next
-        streets = getResources().getStringArray(R.array.streets);
+    @SuppressLint("CheckResult")
+    private void loadStreets(String city) {
+        System.out.println("CITY: " + city);
+        RepositoryProvider
+                .getLocationRepository()
+                .getStreets(" " + city)
+                .doOnSubscribe(disposable -> {dialog.showLoadingIndicator(disposable);})
+                .doAfterTerminate(dialog::hideLoadingIndicator)
+                .subscribe(this::onCompleteStreets, this::onError);
+
+    }
+
+    private void onCompleteStreets(List<String> strings) {
+        streets = strings;
         setStreetsSpin(streetSpin, streets);
     }
+
+
 
     private void setBorrowsSpin(Spinner borrowSpin, String[] borrows) {
         ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, borrows);
@@ -172,7 +200,7 @@ public class SearchActivity extends AppCompatActivity {
         borrowSpin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                loadPoints();
+//                loadPointsRest(borrows[position]);
 //                String bor = borrows.get(position);
             }
 
@@ -183,16 +211,30 @@ public class SearchActivity extends AppCompatActivity {
         });
     }
 
-    private void loadPoints() {
+    @SuppressLint("CheckResult")
+    private void loadPointsRest(String borrow) {
+        RepositoryProvider
+                .getLocationRepository()
+                .getStreets(" " + borrow)
+                .doOnSubscribe(disposable -> {dialog.showLoadingIndicator(disposable);})
+                .doAfterTerminate(dialog::hideLoadingIndicator)
+                .subscribe(this::onCompletePoints, this::onError);
+    }
 
-        points = getResources().getStringArray(R.array.points);
-        setPointSpin(pointSpin, points);
+    private void onCompletePoints(List<String> strings) {
+//        cities = strings;
+//        setPointSpin(pointSpin, cities);
+    }
+
+
+    private void loadCities() {
+        cities = getResources().getStringArray(R.array.points);
+        setPointSpin(pointSpin, cities);
     }
 
     private void onError(Throwable throwable) {
         System.out.println(throwable.getLocalizedMessage());
     }
-
 
 
 

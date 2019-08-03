@@ -2,7 +2,7 @@ package com.breakout.myapplication.api;
 
 
 
-import com.breakout.myapplication.model.Example;
+import com.breakout.myapplication.model.Content;
 
 import java.util.List;
 
@@ -16,12 +16,18 @@ public interface EducationService {
 //    //endpoint = https://www.udemy.com/api-2.0/
 //    @GET("courses/?page_size=20")
 //    Observable<Example> getUdemyResponse(@Query("page") int pageNumber);
-//
-    @GET("/{borrow_name}/")
-    Observable<Example> getUdemyReviews(@Path("borrow_name") Integer courseId);
 
-    @GET("region")
-    Observable<List<Example>> getPoints();
+
+
+    @GET("city/")
+    Observable<List<Content>> getCities(@Query("RAYON") String rayon);
+
+    @GET("street/")
+    Observable<List<Content>> getStreets(@Query("CITY") String city);
+
+    @GET("home/")
+    Observable<List<Content>> getHouses(@Query("STREET") String street);
+
 
 
 

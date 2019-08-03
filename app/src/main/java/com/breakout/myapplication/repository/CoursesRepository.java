@@ -3,7 +3,7 @@ package com.breakout.myapplication.repository;
 import android.support.annotation.NonNull;
 
 
-import com.breakout.myapplication.model.Example;
+import com.breakout.myapplication.model.Content;
 
 import java.util.List;
 
@@ -18,6 +18,13 @@ public interface CoursesRepository {
 //    @NonNull
 //    Observable<List<Review>> getUdemyReviews(Integer courseId);
 
+
     @NonNull
-    Observable<List<Example>> getLivePoints();
+    Observable<List<String>> getCities(String rayon);
+
+    @NonNull
+    Observable<List<String>> getStreets(String city);
+
+    @NonNull
+    Observable<List<String>> getHomes(String street);
 }
