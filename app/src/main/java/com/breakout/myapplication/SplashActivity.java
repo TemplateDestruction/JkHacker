@@ -27,8 +27,8 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        startActivity(new Intent(this, SearchActivity.class));
-        startActivity(new Intent(this, SearchActivityRest.class));
+        startActivity(new Intent(this, SearchActivity.class));
+//        startActivity(new Intent(this, SearchActivityRest.class));
         finish();
 //        try {
 //            createDataBase();
